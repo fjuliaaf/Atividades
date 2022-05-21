@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+
+input[type=text]{
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-color: rgb(209, 207, 207);
+    margin-top: 0.3cm;
+    
+}
+
+input[type=password]{
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-color: rgb(209, 207, 207);
+    margin-top: 0.3cm;
+}
+
+#check{
+    color: black;
+    display: block;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(138, 139, 139);
+    font-size:small;
+}
+
+body{
+    background-color: rgb(192, 189, 189);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+}
+
+#total{
+    border-radius: 5px;
+    background-color: white;
+    width: 19cm;
+    height: 15.8cm;
+    float: center;
+    margin-left: 25.9%;
+}
+
+
+h2{
+    margin-top: 1cm;
+    background-color:rgba(45, 45, 185, 0.829);
+    color: white;
+    font-family: Roboto Flex;
+    text-align: center;
+    padding: 3%;
+
+}
+
+
+#div1,#div2{
+    display: inline-flex;
+    margin-top: 0.7cm;
+}
+
+#a1,#a2{
+    margin-left: 1cm;
+}
+
+#div2{
+    margin-left: 1cm;
+}
+
+#b1{
+    display: inline-flex;
+}
+
+#b2{
+    margin-left: 3cm;
+}
+
+#buttons{
+    margin-left: 0.3cm;
+    display: flex;
+    margin-top:0.3cm;
+}
+
+#div3{
+    margin-top: 0.7cm;
+    margin-left: 1cm;
+}
+
+#senhas{
+    display: inline-flex;
+    margin-top: 0.7cm;
+}
+
+#confirme{
+    margin-left: 1cm;
+}
+
+input[type=submit]{
+    width: 88%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 3px;
+    border: none;
+    display: block;
+    margin-top: 3%;
+    color: white;
+    margin-left: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    color: rgb(100, 100, 100);
+    font-size: medium;
+}

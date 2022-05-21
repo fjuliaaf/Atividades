@@ -6,32 +6,53 @@
     </head>
 
     <body>
-        <div id="navbar">
-            <h2>Material Design Sign Up Form</h2>
+
+        <div id="total">
+            <form action="/action_page.php">
+                <h2>Material Design Sign Up Form</h2>
+                <div id="div1">
+                    <div id="a1">
+                        <label for="fusername">First Name</label><br>
+                        <input type="text" id="username" value="Your First Name" size="33"><br><br>
+                    </div>
+                    <div id="a2">
+                        <label for="lusername">Last Name</label><br>
+                        <input type="text" id="lastname" value="Your Last Name" size="33"><br><br>
+                    </div>
+                </div>
+                <div id="div2">
+                    <div id="b1">
+                        <p>Gender:</p>
+                        <div id="buttons">
+                            <input type="radio" id="check" name="gender" value=""/>Male
+                            <input type="radio" id="check" name="gender" value=""/>Female
+                            <input type="radio" id="check" name="gender" value=""/>Other
+                        </div>
+                        
+                    </div>
+                    <div id="b2">
+                        <label for="age">Age</label><br>
+                     <input type="text" id="age" value="20" size="33"><br><br>
+                    </div>
+                </div>
+                <div id="div3">
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" value="someone@example.com" size="48"><br><br>
+                    <div id="senhas">
+                        <div id="senha">
+                            <label for="npass">New Password</label><br>
+                            <input type="password" id="npassword" value="********" size="33"><br><br>
+                        </div>
+                        <div id="confirme">
+                            <label for="cpass">Confirm Password</label><br>
+                            <input type="password" id="email" value="********" size="33"><br><br>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="SUBMIT" style="background-color: rgb(209, 206, 206)">
+                <input type="submit" value="CODE PEN LOGIN FORM" style="background-color:rgb(45, 45, 185, 0.829)">
+            </form>
         </div>
-        <div id="div1">
-            <label for="fusername">First Name</label><br>
-            <input type="text" id="username" value=""><br><br>
-            <input type="checkbox" id="check1" name="male" value=""/>Male
-            <input type="checkbox" id="check2" name="female" value=""/>Female
-            <input type="checkbox" id="check3" name="other" value=""/>Other
-        </div>
-        <div id="div2">
-            <label for="lusername">Last Name</label><br>
-            <input type="text" id="lastname" value=""><br><br>
-            <label for="age">Age</label><br>
-            <input type="text" id="age" value=""><br><br>
-        </div>
-        <div id="div3">
-            <label for="email">Email</label><br>
-            <input type="text" id="email" value=""><br><br>
-            <label for="npass">New Password</label><br>
-            <input type="text" id="npassword" value=""><br><br>
-            <label for="cpass">Confirm Password</label><br>
-            <input type="text" id="email" value=""><br><br>
-        </div>
+        
     </body>
 </html>
-
-<label for="username">USERNAME</label><br>
-<input type="text" id="username" value=""><br><br>
